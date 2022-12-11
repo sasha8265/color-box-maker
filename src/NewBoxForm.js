@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { SketchPicker } from 'react-color';
 
 /** Form for creating a new colored box to add to the page.
  *
