@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Box from "./Box";
+import "./BoxList.css"
 import NewBoxForm from "./NewBoxForm";
 import { v4 as uuid } from "uuid";
 
@@ -16,8 +17,8 @@ const BoxList = () => {
     };
 
     return (
-        <div>
-            <h1>Color Box Maker</h1>
+        <div className="BoxList">
+            <h1 className="BoxList-header">Color Box Maker</h1>
             <NewBoxForm addBox={addBox} />
 
             <div>

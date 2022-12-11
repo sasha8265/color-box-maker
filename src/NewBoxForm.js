@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./NewBoxForm.css"
 
 /** Form for creating a new colored box to add to the page.
  *
@@ -28,34 +29,42 @@ const NewBoxForm = ({addBox}) => {
 
     return (
         <form className="NewBoxForm" onSubmit={handleSubmit}>
-            <label htmlFor="height" >Height </label>
-            <input
-                id="height"
-                type="text"
-                name="height"
-                placeholder="100"
-                value={formData.height}
-                onChange={handleChange} />
+            <span className="NewBoxForm-inputGroup">
+                <label htmlFor="height" >Height </label>
+                <input
+                    id="height"
+                    type="text"
+                    name="height"
+                    placeholder="100"
+                    value={formData.height}
+                    onChange={handleChange} />
+            </span>
             
-            <label htmlFor="height" >Width </label>
-            <input
-                id="width"
-                type="text"
-                name="width"
-                placeholder="100"
-                value={formData.width}
-                onChange={handleChange} />
+            <span className="NewBoxForm-inputGroup">
+                <label htmlFor="height" >Width </label>
+                <input
+                    id="width"
+                    type="text"
+                    name="width"
+                    placeholder="100"
+                    value={formData.width}
+                    onChange={handleChange} />
+            </span>
             
-            <label htmlFor="color" >Color </label>
-            <input
-                id="color"
-                type="color"
-                name="color"
-                // placeholder="100"
-                value={formData.color}
-                onChange={handleChange} />
+            <span className="NewBoxForm-inputGroup">
+                <label htmlFor="color" >Color </label>
+                <input
+                    id="color"
+                    type="color"
+                    name="color"
+                    // placeholder="100"
+                    value={formData.color}
+                    onChange={handleChange} />
+            </span>
             
-            <button>Add</button>
+            <span className="NewBoxForm-button">
+                <button>Add</button>
+            </span>
         </form>
     )
 

@@ -1,8 +1,9 @@
 import React from "react"
+import "./Box.css"
 
 const Box = ({ id, height, width, color }) => {
     return (
-        <span classname="Box">
+        <div classname="Box">
             <div
                 className="Box-colored"
                 style={{
@@ -11,7 +12,7 @@ const Box = ({ id, height, width, color }) => {
                     width: `${ width }px`,
                 }}>
             </div>
-        </span>
+        </div>
     )
 }
 
