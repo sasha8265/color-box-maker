@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="BoxList"
+    >
+      <h1
+        class="BoxList-header"
+      >
+        Color Box Maker
+      </h1>
+      <form
+        class="NewBoxForm"
+      >
+        <span
+          class="NewBoxForm-inputGroup"
+        >
+          <label
+            for="height"
+          >
+            Height 
+          </label>
+          <input
+            id="height"
+            name="height"
+            placeholder="100"
+            type="text"
+            value=""
+          />
+        </span>
+        <span
+          class="NewBoxForm-inputGroup"
+        >
+          <label
+            for="height"
+          >
+            Width 
+          </label>
+          <input
+            id="width"
+            name="width"
+            placeholder="100"
+            type="text"
+            value=""
+          />
+        </span>
+        <span
+          class="NewBoxForm-inputGroup"
+        >
+          <label
+            for="color"
+          >
+            Color 
+          </label>
+          <input
+            id="color"
+            name="color"
+            type="color"
+            value=""
+          />
+        </span>
+        <span
+          class="NewBoxForm-button"
+        >
+          <button>
+            Add
+          </button>
+        </span>
+      </form>
+      <div>
+        <div
+          classname="Box"
+        >
+          <div
+            class="Box-colored"
+            style="background-color: rgb(90, 173, 191); height: 100px; width: 100px;"
+          />
+        </div>
+        <div
+          classname="Box"
+        >
+          <div
+            class="Box-colored"
+            style="background-color: rgb(242, 188, 27); height: 200px; width: 200px;"
+          />
+        </div>
+        <div
+          classname="Box"
+        >
+          <div
+            class="Box-colored"
+            style="background-color: rgb(166, 13, 97); height: 150px; width: 150px;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
