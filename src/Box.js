@@ -6,7 +6,7 @@ const Box = ({ id, height, width, color }) => {
             <div
                 className="Box-colored"
                 style={{
-                    backgroundColor: { color },
+                    backgroundColor: color,
                     height: `${ height }px`,
                     width: `${ width }px`,
                 }}>
